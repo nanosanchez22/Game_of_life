@@ -6,7 +6,8 @@ namespace PII_Game_Of_Life
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            bool [,] tablero = LeerArchivo.Leer();
+            ImprimirTablero.Imprimir(tablero);
         }
     }
 }
